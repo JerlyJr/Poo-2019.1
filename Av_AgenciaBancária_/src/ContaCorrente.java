@@ -1,5 +1,5 @@
 public class ContaCorrente extends Cliente {
-    int saldo;
+    double saldo;
     public ContaCorrente(String id, String nome) {
         super(id, nome);
         this.saldo = 0;

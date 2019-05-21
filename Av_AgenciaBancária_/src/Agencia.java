@@ -9,4 +9,12 @@ public class Agencia {
     public void addCliente(Cliente client){
         clientes.add(client);
     }
+
+    @Override
+    public String toString() {
+        String saida = "";
+        for(Cliente client : clientes)
+            saida += client + "\n";
+        return saida;
+    }
 }

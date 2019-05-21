@@ -8,6 +8,9 @@ public class ContaCorrente extends Cliente {
         this.saldo -= 20;
         return this.saldo;
     }
+    public void sacar(double valor){
+        this.saldo -= valor;
+    }
 
     @Override
     public String toString() {

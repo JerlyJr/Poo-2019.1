@@ -16,6 +16,8 @@ public class Controlador {
             }else if (ui[0].equals("addC")){
                 ag.addCliente(new ContaCorrente(ui[1],ui[2]));
                 ag.addCliente(new ContaPoupança(ui[1],ui[2]));
+            }else if (ui[0].equals("sacar")){
+                
             }
         }
 

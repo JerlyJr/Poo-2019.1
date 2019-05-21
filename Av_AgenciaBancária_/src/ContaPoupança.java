@@ -8,6 +8,9 @@ public class ContaPoupança extends Cliente {
         this.saldo = this.saldo * 1.01;
         return saldo;
     }
+    public void sacar(double valor){
+        this.saldo -= valor;
+    }
 
     @Override
     public String toString() {

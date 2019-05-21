@@ -28,7 +28,7 @@ public class Topic {
         }
         return saida + " ]";
     }
-    private boolean inserir(int inicio, int fim, Passageiro pass){
+    public boolean inserir(int inicio, int fim, Passageiro pass){
         for (int i = inicio; i < fim; i++){
             if (poltronas.get(i) == null){
                 poltronas.set(i,pass);

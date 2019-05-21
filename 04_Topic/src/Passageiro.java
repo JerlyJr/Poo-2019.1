@@ -15,6 +15,6 @@ public class Passageiro {
     }
     public boolean preferencial(){
 
-        return (idade >= 60);
+        return (idade <= 60);
     }
 }

@@ -18,6 +18,12 @@ public class Controlador {
             else if (ui[0].equals("show")){
                 System.out.println(topic);
             }
+            else if(ui.[0].equals("inserir")){
+                topic.inserir(new Passageiro(ui[1], Integer.parseInt(ui[2])));
+
+            }else{
+                System.out.println("comando inválido");
+            }
         }
     }
 }
